@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric's Skills</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Add a Dev Skill</h1>
+    <form action="/skills" method="POST">
+        <label> 
+            Skill Name
+            <input type="text" name="skill">
+        </label>
+        <br>
+        <br>
+        <label> 
+            Skill Level
+            <select name="level">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <br>
+        </label>
+        <br>
+        <button type="submit">Add Skill</button>
+    </form>
+  </body>
+</html>

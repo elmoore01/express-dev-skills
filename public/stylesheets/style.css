@@ -1,0 +1,31 @@
+body {
+  padding: 50px;
+  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+a {
+  color: #074bf7;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 20px;
+  margin: 20px;
+  line-height: 40px;
+}
+
+p {
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  display: inline-block;
+}
+.w3-btn {
+  margin: 40px;
+  padding: 40px;
+  line-height: 60px;
+}

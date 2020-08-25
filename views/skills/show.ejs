@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+    <h1>Delete Skills Page</h1>
+    <br>
+    <% if (skill) { %>
+    <%= skill.skill %> (Level: <%= skill.level %>)
+    <% } else { %>
+    <p>Invalid Skill id</p>
+    <% } %>
+    <br>
+    <form action="/skills/<%= skill.id %>?_method=DELETE" method="POST">
+        <br>
+        <button type="submit">DELETE</button>
+    </form>
+</body>
+</html>
